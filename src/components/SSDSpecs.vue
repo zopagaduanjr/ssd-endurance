@@ -7,10 +7,10 @@
       <label>Endurance Rating (TB):</label>
       <input type="number" min="0" required v-model="endurance_tb">
   </form>
-  <p>average writes per day: <b>{{avg_writes_day.toFixed(2)}}</b> GBW / day</p>
-  <p>average writes per month: <b> {{avg_writes_month.toFixed(2)}}</b> GBW / month</p>
-  <p>average writes per year: <b>{{avg_writes_year.toFixed(2)}}</b> GBW / year</p>
-  <p>life expectancy based on current usage: <b>{{expected_life.toFixed(2)}}</b> years</p>
+  <p style="text-indent: 0px;">average writes per day: <b>{{avg_writes_day.toFixed(2)}}</b> GBW / day</p>
+  <p style="text-indent: 0px;">average writes per month: <b> {{avg_writes_month.toFixed(2)}}</b> GBW / month</p>
+  <p style="text-indent: 0px;">average writes per year: <b>{{avg_writes_year.toFixed(2)}}</b> GBW / year</p>
+  <p style="text-indent: 0px;">life expectancy based on current usage: <b>{{expected_life.toFixed(2)}}</b> years</p>
   <br/>
   <h2>How it works</h2>
   <div class="how-it-works">
