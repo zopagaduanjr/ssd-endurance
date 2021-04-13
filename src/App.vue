@@ -1,5 +1,5 @@
 <template>
-<h1>SSD Endurance Calculator </h1>
+<h1>SSD Life Calculator </h1>
 <SSDSpecs/>
 
 </template>
